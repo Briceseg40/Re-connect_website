@@ -1,4 +1,10 @@
+* {margin: 0;}
 h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
     font-size: 40px;
 }
 
@@ -31,4 +37,12 @@ li a:hover {
 ul {
     display: flex;
     
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 200px;
+    height: 400px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
