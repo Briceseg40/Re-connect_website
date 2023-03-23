@@ -1,0 +1,34 @@
+h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(158, 155, 155, 0.5);
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    padding-top: 25px;
+   }
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    
+}
