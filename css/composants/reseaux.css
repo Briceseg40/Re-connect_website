@@ -1,0 +1,28 @@
+.reseaux {
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding-top: 5px;
+    
+}
+
+.liens a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+video {
+    
+    border-radius: ;
+    border: 2px solid #39666A;
+    
+    
+}
