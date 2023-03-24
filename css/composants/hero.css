@@ -1,8 +1,8 @@
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     margin: 0;
-    padding-top: 200px;
+    padding-top: 20%;
    font-family: 'Karla';
 }
 
@@ -19,7 +19,7 @@ h1 {
 
 .hero .overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 642px;
+    height: 342px;
     width: 100%;
     
 } 
@@ -37,13 +37,14 @@ h1 {
     display:block;
     width: 100%;
     
-    margin:0 auto px auto;
+    
+    margin:0 auto 0px auto;
 }
 
 @media screen and (min-width: 1700px) {
     .hero {
-      height: 550px;
-      margin-bottom: 300px;
+      height: 850px;
+      margin-bottom: 10px;
     }
     .hero .overlay {
         background-color: rgba(0, 0, 0, 0.5);
