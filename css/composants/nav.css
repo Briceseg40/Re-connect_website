@@ -1,35 +1,30 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
-    background-color: rgba(158, 155, 155, 0.5);
+    padding: 10px;
+    background-color: white;
     align-items: center;
 }
 
 nav img {
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 50px;
     border-radius: 55px;
 }
 li{
     list-style-type: none;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     
    }
 
-li a {
+.sommaire a {
     text-decoration: none;
     color: black;
     padding: 5px;
 }
 
-li a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
 
-    color: white;
-    border-radius: 5px;
-}
 
 ul {
     display: flex;
