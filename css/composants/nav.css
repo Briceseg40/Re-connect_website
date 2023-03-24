@@ -17,29 +17,20 @@ li{
     font-size: 14px; 
 }
 
-#button_live {
-    background-color: #E1295A;
-    border-radius: 10px;
-    box-shadow: 2px 2px #E1295A;
-    };
-}
-
-#button_live a {
-    
-    color: white;
-}
-
-
 .sommaire a {
     text-decoration: none;
+    
     color: black;
     padding: 5px;
 }
 
-
+.sommaire_blanc {
+    display: flex;
+}
 
 ul {
     display: flex;
+    
     margin: 0;
     padding-left: 0;
     
@@ -47,4 +38,15 @@ ul {
 
 #logo {
     font-size: 40px;
+}
+
+.live {
+    background-color: #E1295A;
+    border-radius: 5px;
+    color: white;
+}
+
+.live a{
+    color: white;
+    font-weight: 600;
 }
