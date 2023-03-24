@@ -1,15 +1,16 @@
 .reseaux {
     background-color: black;
     color: white;
-    height: 400px;
+    height: 450px;
     padding-top: 5px;
+    padding-bottom: 10px;
     
 }
 
 .liens a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     
 }
 
@@ -26,4 +27,12 @@ video {
     
     
 }
+
+.video_reseaux {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
 

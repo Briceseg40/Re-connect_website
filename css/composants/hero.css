@@ -10,7 +10,7 @@ h1 {
     
    
     background-size: cover;    
-    height: 550px;
+    height: 620px;
     width: 100%;
     color: white;
    
@@ -19,7 +19,7 @@ h1 {
 
 .hero .overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 538px;
+    height: 642px;
     width: 100%;
     
 } 
@@ -39,3 +39,16 @@ h1 {
     
     margin:0 auto px auto;
 }
+
+@media screen and (min-width: 1700px) {
+    .hero {
+      height: 550px;
+      margin-bottom: 300px;
+    }
+    .hero .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 860px;
+        width: 100%;
+        
+    } 
+  }
