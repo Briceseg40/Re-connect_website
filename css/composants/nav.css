@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgba(158, 155, 155, 0.5);
+    align-items: center;
+}
+
+nav img {
+    height: 90px;
+    width: 90px;
+    border-radius: 55px;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    
+   }
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    
+}
+
+#logo {
+    font-size: 40px;
+}

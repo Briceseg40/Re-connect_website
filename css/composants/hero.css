@@ -1,0 +1,31 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-top: 200px;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Karla';
+}
+
+.hero {
+    
+    background-image: url(../../img/casquefondbleu.jpg);
+    background-size: cover;    
+    
+    height: 550px;
+    width: 100%;
+    color: white;
+    
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.hero p {
+    padding-top: 300px;
+    text-shadow: 5px 5px black;
+}
