@@ -14,9 +14,21 @@ nav img {
 li{
     list-style-type: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 14px; 
+}
+
+#button_live {
+    background-color: #E1295A;
+    border-radius: 10px;
+    box-shadow: 2px 2px #E1295A;
+    };
+}
+
+#button_live a {
     
-   }
+    color: white;
+}
+
 
 .sommaire a {
     text-decoration: none;

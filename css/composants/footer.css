@@ -14,12 +14,11 @@ footer img {
 
 .contenu_footer {
     width: 1200px;
-        display: flex;
+     display: flex;
     justify-content: center;
-    
-    margin: 0 auto;
+     margin: 0 ;
     font-size: 20px;
-    padding: 10px 0 100px;
+    padding: 10px 0 40px;
     align-items: center;
 }
 
@@ -27,16 +26,22 @@ footer img {
     width: 25%;
     margin: 0 30px;
 }
-
+.footer_contact a {
+    display: flex;
+    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(19, 19, 239);
+}
 .footer_contact h3,
 .footer_reseaux h3 {
     font-size: 25px;
+    margin-top: 0;
     
     
 
 }
 
-.footer_contact p {
+.footer_contact a {
     padding: 5px 0;
 }
 
