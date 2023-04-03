@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 10px;
     box-sizing: border-box;
     width: 100%;
@@ -20,26 +20,12 @@ nav .logo {
     border-radius: 30px;
 }
 
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 600px;
+.sommaire_blanc img {
+    height: 30px;
+    width: auto;
 }
 
-.overlay button {
-    margin-left: 49%;
-    background-color: white;
-    border: 2px solid red;
-    padding: 5px;
-    font-size: 20px;
-    border-radius: 10px;
-    box-shadow: none;
-    color: red;
-}
 
-.overlay button img {
-    height: 50px;
-    width: 50px;
-}
 
 nav ul li {
     margin-right: 20px;
@@ -52,6 +38,7 @@ nav ul li {
    
    
 }
+
 
 
 

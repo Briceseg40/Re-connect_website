@@ -20,7 +20,7 @@
     justify-content: space-between;
 }
 
-video {
+.reseaux video {
     
     border-radius: ;
     border: 2px solid #10B1CD;
@@ -31,7 +31,7 @@ video {
 .video_reseaux {
     display: flex;
     flex-direction: column;
-    margin-left: 55px;
+    margin-left: 40px;
     margin-right: 55px;
 }
 
