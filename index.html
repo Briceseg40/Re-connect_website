@@ -42,11 +42,8 @@
           <li><a href="/">Qui sommes nous ?</a></li>
           <li><a href="/">Réseaux sociaux</a></li>
           <li><a href="/">Jeux</a></li>
-          <li><a href="/" class="btn en-live"><img src="img/twitch.png" alt=""></a></li>
-
+          <li><a href="https://www.twitch.tv/re_connectesport" target="_blank" class="btn en-live"><img src="img/twitch.png" alt=""></a></li>
         </div>
-
-       
       </ul>
     </nav>
   </header>
@@ -56,15 +53,14 @@
 
     <section class="hero">
       <div class="bloc-video">
-<video autoplay loop muted class="video" src="video/league.mp4" >
-  
-</video> 
-</div>
-     <div class="overlay">
-        <h1>Re-Connect</h1>
-        
+        <video autoplay loop muted class="video" src="video/league.mp4">
+
+        </video>
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="overlay">
+        <h1>Re-Connect</h1>
+
+      </div>
 
 
     </section>
@@ -119,11 +115,17 @@
     <br>
     <section class="agenda aligne">
       <h2>Agenda</h2>
-    </section>
+      <iframe
+        src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%234285F4&ctz=Europe%2FParis&showTitle=0&showNav=0&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=WEEK&src=YnJpY2Uuc2VndXJldEBnbWFpbC5jb20&src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237CB342&color=%234285F4"
+        style="border:solid 1px #777" width="700" height="500" frameborder="0" scrolling="no"></iframe> </section>
 
 
-    <br><br><br><br><br><br>
+
     
+    
+
+
+
 
   </main>
 
@@ -134,12 +136,14 @@
         <a href="mailto:reconnectesport40@gmail.com" target="_blank">Reconnectesport40@gmail.com</a>
         <a href="https://discord.gg/KAFAV8Yj6X" target="_blank">Groupe Discord</a>
       </div>
-  
+
       <div class="bloc footer_reseaux">
         <h3>Nos Réseaux</h3>
         <ul class="liste_reseaux">
-          <li><a href="https://www.youtube.com/channel/UCOvFsFrAGNKLEtgifYlOGiQ" target="_blank"><img src="img/youtube.png" alt="Youtube"> Youtube</a></li>
-          <li><a href="https://www.twitch.tv/re_connectesport" target="_blank"><img src="img/twitch.png" alt="Twitch">Twitch</a></li>
+          <li><a href="https://www.youtube.com/channel/UCOvFsFrAGNKLEtgifYlOGiQ" target="_blank"><img
+                src="img/youtube.png" alt="Youtube"> Youtube</a></li>
+          <li><a href="https://www.twitch.tv/re_connectesport" target="_blank"><img src="img/twitch.png"
+                alt="Twitch">Twitch</a></li>
           <li><a href="#"><img src="img/instagram.png" alt="Instragram">Instragram</a></li>
         </ul>
       </div>
@@ -147,11 +151,17 @@
     </div>
   </footer>
 
-
+<script type="text/javascript">
+  window.addEventListener("scroll", function(){
+    var nav = document.querySelector("nav");
+    nav.classList.toggle("nav-js",window.scrollY >400)
+})
+</script>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/agenda.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

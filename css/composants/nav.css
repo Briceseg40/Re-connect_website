@@ -1,16 +1,18 @@
 nav {
     display: flex;
     position: fixed;
-    top: 10px;
+    top: 0px;
     box-sizing: border-box;
     width: 100%;
     justify-content: space-between;
-    
+    transition: 0.7s;
     align-items: center;
+    padding: 5px;
 }
 
 nav a {
     color: white;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -23,8 +25,24 @@ nav .logo {
 .sommaire_blanc img {
     height: 30px;
     width: auto;
+    filter: hue-rotate(125deg);
 }
 
+.nav-js {
+    
+    margin: 0;
+    background-color: white;
+    font-size: 16px;
+    z-index: 100;
+    
+}
+
+.nav-js .sommaire_blanc img {
+    filter: hue-rotate(1000deg);
+}
+.nav-js a {
+    color: black;
+}
 
 
 nav ul li {
