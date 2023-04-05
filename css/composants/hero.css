@@ -49,9 +49,10 @@
     top: 65%;
     left: 42%;
     text-decoration: none;
-    color: black;
-    background-color:white ;
-    border: 3px solid #E1295A;
+    color: white;
+    
+    border: 2px solid rgba(2, 214, 252, 0.4);
+    
     padding: 10px;
     border-radius: 5px;
     font-size: 15px; 
@@ -60,7 +61,7 @@
 
 .hero a:hover {
     transition: ease-out 0.5s;
-    background-color: #E1295A;
+    background-color: #02d6fc;
     color: white;
 }
 

@@ -3,6 +3,33 @@
 }
 
 .presentation {
+    display: flex;
+    justify-content: space-around;
     padding-top: 5px;
-    height: 300px;
+    height: 250px;
+    margin: 5px;
+    
+  
 }
+
+.membres {
+    border-right: 2px solid #E1295A;
+    padding-right: 45px;
+    
+}
+
+.join {
+    width: 70%;
+    margin-top: 12%;
+    
+}
+
+.join a {
+    
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #E1295A;
+    border-radius: 45%;
+}
+
