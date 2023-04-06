@@ -1,15 +1,21 @@
 * {
-    font-family: 'Crimson Text', sans-serif;;
+    font-family: 'robotto';
+    
 }
 
+body{
+    background-color: white;
+}
 h2 {
-    font-size: 40px;
+    font-size: 30px;
+   
+    
     
 
 }
 
 p {
-    font-size: 20px;
+    font-size: 10px;
 }
 
 

@@ -31,13 +31,13 @@ nav .logo {
 .sommaire_blanc img {
     height: 30px;
     width: auto;
-    filter: hue-rotate(125deg);
+    
 }
 
 .nav-js {
     transition: ease 1s;
     margin: 0;
-    background-color: white;
+    background-color:white;
     font-size: 16px;
     z-index: 100;
     
@@ -47,10 +47,7 @@ nav .logo {
     height: 45px;
     width: 45px;
 }
-.nav-js .sommaire_blanc img {
-    filter: hue-rotate(1000deg);
-    
-}
+
 .nav-js a {
     color: black;
 }

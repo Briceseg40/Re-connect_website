@@ -6,14 +6,30 @@
     display: flex;
     justify-content: space-around;
     padding-top: 5px;
-    height: 450px;
+    height: 250px;
     margin: 5px;
     
   
 }
 
-.membres p {
-    font-size: 21px;
+.left p, .right p {
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+.left, .right {
+    width: 50%;
+    
+
+}
+
+
+.classe{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
 }
 
 .join {
@@ -34,7 +50,8 @@
     padding: 6px;
     text-decoration: none;
     color: black;
-    border: 2px solid #E1295A;
+    border: 2px solid black;
     border-radius: 5px;
 }
+
 
