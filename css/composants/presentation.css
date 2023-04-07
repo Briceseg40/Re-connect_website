@@ -2,28 +2,19 @@
     text-align: center;
 }
 
-.presentation {
+.presentation  {
     display: flex;
     justify-content: space-around;
     padding-top: 5px;
-    height: 250px;
+    height: 450px;
     margin: 5px;
     
   
 }
 
-.left p, .right p {
+.presentation p {
     font-size: 17px;
-    text-align: center;
-    
 }
-
-.left, .right {
-    width: 50%;
-    
-
-}
-
 
 .classe{
     display: flex;
@@ -49,9 +40,13 @@
 .join a {
     padding: 6px;
     text-decoration: none;
+    font-weight: 300;
     color: black;
     border: 2px solid black;
-    border-radius: 5px;
+    text-transform: uppercase;
+   
 }
 
-
+.join a:hover {
+    color: white;
+}

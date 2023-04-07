@@ -1,38 +1,37 @@
 .reseaux {
-    background-color: #10B1CD;
+    background-color: #0b9eed;
+    height: 200px;
     color: white;
-    height: 400px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    
-}
-
-.liens a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    
-}
-
-.liens {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.reseaux video {
-    
-    border-radius: ;
-    border: 4px solid white;
-    
-    
-}
-
-.video_reseaux {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1px;
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
-    margin-right: 55px;
+    align-items: center;
+    
+}
+
+.boite-reseaux {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.icone_rsx {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 50%;    
+}
+
+.reseaux img {
+    height: 50px;
+    width: 50px;
 }
 
 
+
+
+
+/* reconnectesport40@gmail.com 
+https://discord.gg/KAFAV8Yj6X */

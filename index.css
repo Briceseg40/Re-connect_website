@@ -7,22 +7,30 @@ body{
     background-color: white;
 }
 h2 {
-    font-size: 30px;
-   
-    
-    
+    font-size: 32px;   
 
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h6 {
+    color: #0B9EED;
+    font-size: 40px;
 }
 
 p {
-    font-size: 10px;
+    font-size: 8px;
 }
 
 
 
 
 
-/* Couleur du logo bleu : #10B1CD
+
+
+/* Couleur du logo bleu : #0b9eed
 Couleur du logo rouge : #E1295A */
 
 
