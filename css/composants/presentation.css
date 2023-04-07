@@ -8,11 +8,22 @@
     padding-top: 5px;
     height: 450px;
     margin: 5px;
-    width: 500px;
+    
+  
+}
+
+.membres {
+    width: 450px;
     text-align: left;
     margin-left: 50px;
     
-  
+}
+
+.img_team img {
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+
 }
 
 .presentation p {
@@ -22,9 +33,13 @@
 .classe{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     width: 100%;
+    align-items: center;
     
 }
+
+
 
 .join {
     display: flex;
