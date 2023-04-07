@@ -1,9 +1,9 @@
 .reseaux {
     background-color: #0b9eed;
     height: 200px;
-    color: white;
-    width: 90%;
-    margin-left: 5%;
+    color: black;
+   
+    
     padding-top: 1px;
     display: flex;
     flex-direction: column;

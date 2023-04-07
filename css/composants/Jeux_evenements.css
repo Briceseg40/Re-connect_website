@@ -1,0 +1,45 @@
+.acti_jeux h2 {
+    color: black;
+}
+
+.acti_jeux {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    
+}
+
+
+
+
+.activites, .jeux {
+    background-color: #0b9eed;
+    display: flex;
+    width: 45%;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.activites img, .jeux img{
+    height: 50px;
+    width: 55px;
+} 
+
+.activites a, .jeux  a {
+    display: inline-block;
+    
+    
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.1);
+    padding: 15px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.activites a:hover, .jeux  a:hover {
+box-shadow: 0 8px 8px 0 rgba(0,0,0,.2);
+
+}

@@ -1,18 +1,12 @@
-.video-recentes {
-    background-color: #10B1CD;
-    color: white;
+.video_recentes {
+    color: black;
     height: 400px;
     padding-top: 5px;
     padding-bottom: 10px;
     
 }
 
-.liens a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    
-}
+
 
 .liens {
     display: flex;
