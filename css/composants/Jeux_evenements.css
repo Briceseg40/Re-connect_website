@@ -1,12 +1,11 @@
 .acti_jeux h2 {
-    color: black;
+    color: white;
 }
 
 .acti_jeux {
     display: flex;
     width: 100%;
     height: 250px;
-    
 }
 
 
@@ -14,11 +13,12 @@
 
 .activites, .jeux {
     background-color: #0b9eed;
+    height: 240px;
     display: flex;
-    width: 45%;
-    margin: 10px 20px;
-    display: flex;
+    width: 50%;
     flex-direction: column;
+    margin: 10px 20px;
+   
 }
 
 
@@ -29,8 +29,6 @@
 
 .activites a, .jeux  a {
     display: inline-block;
-    
-    
     margin: 10px;
     background-color: white;
     box-shadow: 0 2px 8px 0 rgba(0,0,0,.1);
@@ -42,4 +40,82 @@
 .activites a:hover, .jeux  a:hover {
 box-shadow: 0 8px 8px 0 rgba(0,0,0,.2);
 
+}
+
+.slider {
+    
+    margin-top: 10px;
+    position: relative;
+    width: 400px;
+    height: 235px;
+    
+    background-color: gray;
+    border: 2px solid #0b9eed;
+}
+
+
+.slide_jeux {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide_jeux img {
+    width: 100%;
+    height: 100%;
+}
+
+#i1, #i2, #i3, #i4 {
+    display: none;
+}
+
+.pre, .next {
+    width: 40px;
+    
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+    background-color: #0b9eed;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.pre {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.slide_nav {
+    width: 18px;
+    height: 18px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dots {
+    top: -5px;
+    width: 10%;
+    height: 10%;
+    margin: 0 4px;
+    position: absolute;
+    border-radius: 50%;
+    display: inline-block;
+    background:gray;
+}
+
+.slide_jeux{
+    z-index: -1;
+}
+
+#i1:checked ~ #un
+#i2:checked ~ #deux
+#i3:checked ~ #trois
+#i4:checked ~ #quatre{
+    z-index: 9;
 }
