@@ -3,6 +3,7 @@
 }
 
 .presentation  {
+    
     display: flex;
     justify-content: space-around;
     padding-top: 5px;
@@ -16,10 +17,12 @@
     width: 450px;
     text-align: left;
     margin-left: 50px;
+    margin-top: 40px;
     
 }
 
 .img_team img {
+    margin-top: 20px;
     height: 250px;
     width: auto;
     border-radius: 20px;
