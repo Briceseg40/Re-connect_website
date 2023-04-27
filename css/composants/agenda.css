@@ -3,14 +3,17 @@
     height: 500px;
     width: 100%;
     margin-bottom: 20px;
-    display: flex;
+   
     width: 100%;
-    justify-content: space-between;
+    align-items: left;
     text-align: left;
     color: white;
+
    
 }
+.derniers {
 
+}
 .matchs {
     background-color: white;
     color: black;
@@ -19,6 +22,9 @@
     margin: 5px;
     
     padding-right: 15px;
+}
+.matchs img {
+    height: 80px;
 }
 
 .date {
@@ -46,7 +52,7 @@
     margin-left: 5px;
 }
 
-.derniers, .prochains {
+.prochains {
     margin: 25px;
     display: flex;
     flex-direction: column;
